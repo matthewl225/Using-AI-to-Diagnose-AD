@@ -12,11 +12,10 @@ Magnetic Resonance Imaging (MRI) uses large magnets and radio waves to get struc
 
 ## 2.0 Instructions
 
-Currently LoadData only puts images from same runs into their own respective folders. 
-The entire dataset is around 35 GB so I will not use that one to test. I will upload an example dataset with only a handful runs.
-The example csv and zip files are in our APS360 Google Drive folder.
-To run, put both of the csv and zip files in the "Data" folder (you have may have to create this). 
-Run LoadData from main directory.
+LoadData.py puts images from same runs into their own respective folders. 
+The entire dataset is around 35 GB so I will not use that one to test. The entire dataset is available for access through [OASIS-3](https://www.oasis-brains.org). Only T1W MRI NIFTI components are selected when downloading from xnat.central.org.
+To run, put both of the csv (csv is available in Data folder) and OASIS-3 zip files in the "Data" folder.
+Run LoadData.py from main directory to get Data/Images folder and Labels.csv--these will be our dataset and labels.
 
 ## 3.0 Data Processing
 
