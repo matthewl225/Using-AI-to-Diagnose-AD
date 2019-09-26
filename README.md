@@ -12,6 +12,7 @@ Magnetic Resonance Imaging (MRI) uses large magnets and radio waves to get struc
 
 ## 2.0 Instructions
 
+WARNING: dataset used may take up ~70GB, training 3D models may require VRAM over 12GB
 LoadData.py puts images from same runs into their own respective folders. 
 The entire dataset is around 35 GB so I will not use that one to test. The entire dataset is available for access through [OASIS-3](https://www.oasis-brains.org). Only T1W MRI NIFTI components are selected when downloading from xnat.central.org.
 To run, put both of the csv (csv is available in Data folder) and OASIS-3 zip files in the "Data" folder.
